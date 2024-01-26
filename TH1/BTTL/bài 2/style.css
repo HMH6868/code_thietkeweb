@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+ .khung {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid gray; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .image {
+    margin-bottom: 5px;
+  }
+  .info{
+    margin: 5px 10px;
+}
+.tragop {
+  border: 1px solid black; 
+  padding: 3px 30px;
+  display: inline-block;
+  color: red;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius:3px;
+}
+.ten {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+  .gia {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e73c3c;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .sale {
+    color: gray;
+    font-size: 15px;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .tietkiem{
+    font-size: 16px;
+    display: inline-block;
+  }
+  .discount {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+  }

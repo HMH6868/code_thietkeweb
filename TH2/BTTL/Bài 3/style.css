@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.khung{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);;
+}
+table{
+   border-collapse: collapse;
+   width: 600px;
+}
+td,th,tr{
+    border: 2px solid #000;
+}
+img{
+    max-width: 100%;
+    height: max-content;
+}
+.header_1{
+    background-color: #FF0000;
+    width: 80%;
+}
+.header_1 h2{
+    margin: 10px 0;
+    text-align: end;
+    color: #FFFFFF;
+}
+.header_2{
+    background-color: #FFBBBB;
+}
+.header_2 h1{
+    margin: 15px 0;
+    color: #FF0000;
+    text-align: center;
+}
+.content_1{
+    width: 50%;
+}
+.content_2{
+    width: 50%;
+}
+.content_1 p,.content_2 p{
+    color: #FF0000;
+    font-weight: 600;
+    margin: 5px;
+}
+.in_dam_ngang{
+    font-weight: 600;
+    font-style: italic;
+}
+ul{
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}

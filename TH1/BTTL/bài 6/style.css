@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+#khung{
+    width: 600px;
+    height : auto;
+    background-color: red;
+    margin: 0 auto;
+    border: 1px solid gray; 
+}
+.ten {
+    color: white;
+    margin: 10px 10px;
+}
+.ten h1{
+    margin: 0px 0px;
+    text-transform: uppercase;
+}
+.ten h2{
+    margin: 0px 0px;
+    text-transform: uppercase;
+}
+.info_container{
+    width: 580px;
+    background-color: white;
+    margin: 10px 10px;
+}
+.info{
+    padding:10px;
+}
+.info h2{
+    color: red;
+    margin: 0px 0px;
+}
+.in_dam{
+    font-weight: bold;
+}
+.Buoc1{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.khungdanhmuc{
+    padding: 5px 0px 5px 0px ;
+    border-right: 1px solid red;
+    display: inline-block;
+}
+.danh_muc_sp{
+    background-color: gray;
+    color: white ;
+    display: inline-block;
+    padding: 5px ;
+    margin: 0px 10px 0px 0px ;
+}
+input{
+    height: 30px;
+    border: 1px solid red;
+}
+.icontimkiem{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 6px 8px 8px 8px;
+    margin-left: -5px;
+}
+.Buoc2{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+.Buoc_indam {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+.muangay{
+    display: inline-block;
+    padding: 5px 30px ;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+#muangay_chunho {
+    font-size: 10px;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+.danh_sach_1{
+    margin: 5px 0px;
+    padding-left: 20px;
+}
+.danh_sach_1 li{
+    margin-bottom: 2px;
+}
+.thanh_toan {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Buoc3{
+    margin-top: 10px ;
+
+}
+.Buoc3_tragop {
+    display: inline-block;
+    padding: 5px 30px ;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+.thang {
+    display: inline-block;
+    padding: 8px 10px ;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 3px;
+    font-size: 10px;
+    
+}
+.qua_ct_tai_chinh {
+    display: block;
+    width: 210px;
+    padding: 8px 30px ;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+i{
+    margin-right: 5px;
+}
+.qua_the_tin_dung{
+    display: block;
+    width: 210px;
+    padding: 8px 30px ;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}

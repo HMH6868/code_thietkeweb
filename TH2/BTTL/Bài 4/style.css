@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+.khung {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    width: 70%;
+    border-bottom: 4px solid rgba(251,223,44,255) ;
+}
+.header p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0px;
+    color: rgba(16,98,171,255);
+}
+.body{ 
+    width: 100%;
+    display: flex;
+}
+img{
+    width: 350px;
+    height: 120px;
+    margin: 10px 0;
+}
+.noidung1{
+    flex: 1;
+}
+.content_1,.content_2{
+    margin: 10px;
+}
+.table_1{
+    border-collapse: collapse;
+    margin: 10px 10px 10px 0px;
+    border: 2px solid red;
+}
+.table_1 td, .table_1 tr{
+    border: 2px solid red;
+}
+.table_1 ul li {
+    color: red;
+}
+.checked {
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    margin: 10px 0px ;
+}
+.checked span {
+    font-size: 9px;
+    color: blue;
+}
+li {
+    margin-bottom: 5px;
+}
+.info{
+    background-color: rgb(207, 205, 205);
+    padding: 30px 10px;
+    margin: 20px;
+}
+.info h3,p{
+    margin-bottom: 10px;
+}
+.noidung2{
+    flex: 1;
+}
+.tinh_nang{
+    font-weight: 700;
+    margin: 10px 0;
+}
+.table_2 {
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 100%;
+    border: 1px solid gray;
+}
+.table_2 td{
+    padding: 5px;
+}
+.table_3 {
+
+    margin-top: 50px;
+}
+.table_3 td {
+    padding: 10px;
+}
+.table_3,.table_3 td {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5px solid gray;
+    border-collapse: collapse;
+}
+.in_dam{
+    font-weight: 600;
+    background-color: rgb(214, 219, 224);
+}

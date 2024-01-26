@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-image: url(https://i.pinimg.com/originals/4e/0f/68/4e0f683f152c1e201daacd7e6bf6d9b8.png);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.toan {
+  border-right:1px solid black ;
+  border-bottom: 1px solid black;
+}
+.hoa{
+  border-right:1px solid black ;
+  border-top:1px solid black ;
+}
+.ly{
+  border-left:1px solid black ;
+  border-bottom:1px solid black ;
+}
+.av{
+  border-left:1px solid black ;
+  border-top:1px solid black ;
+}
+.noidung{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+}
+.noidung a{
+  color: black;
+}
+.toan a{
+  background-color: pink;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.ly a{
+  background-color: rgb(117, 117, 230);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.hoa a{
+  background-color: rgb(236, 61, 41);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.av a{
+  background-color: rgb(216, 207, 83);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}

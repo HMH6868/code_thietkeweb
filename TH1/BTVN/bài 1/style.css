@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.khung {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.danh_sach_1{
+    display: inline-block;
+}
+.danh_sach_1 ol {
+    margin: 0px 0px;
+    padding: 10px 40px;
+    border: 1px solid red;
+}
+.danh_sach_1 li{
+    padding-bottom: 3px;
+}
+.danh_sach_2{
+    display: inline-block;
+    background-color: rgb(134, 255, 134);
+}
+.danh_sach_2 ol {
+    margin: 0px 0px;
+    padding: 10px 40px;
+    border: 2px solid rgb(7, 91, 7);
+}
+.danh_sach_2 li{
+    padding-bottom: 3px;
+}
+.danh_sach_3{
+    display: inline-block;
+    background-color: rgb(204, 246, 255);
+    border: 2px solid rgb(71, 93, 254);
+    padding:10px 40px 10px 0px ;
+}
+.danh_sach_3 ol {
+    margin: 0px 0px;
+}
+.danh_sach_3 li{
+    padding-bottom: 3px;
+}
