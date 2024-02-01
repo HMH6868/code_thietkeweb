@@ -1,31 +1,67 @@
-body{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    background-color: #f4f4f4;
 }
-.khung{
-    width: 1000px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.bang {
+    width: 1200px;
+    margin: 0 auto;
+    height: 10000px;
 }
-caption {
-    font-size: 15px;
-    font-weight: 600;
+p{
+    padding: 5px 0;
+    margin: 0;
 }
-.table_1{
-    width: 800px;
-    border-collapse: collapse ;
-    margin-left: auto;
-    margin-right: auto;
+
+.bangsanpham {
+    width: 100%;
+    border-collapse: collapse;
 }
-img {
+
+.bangsanpham th, .bangsanpham td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.bangsanpham img {
+    width: 100%;
+    height: auto;
     max-width: 100%;
     display: block;
     margin: 0 auto;
 }
-td {
-    text-align: center;
-    vertical-align: middle;
+
+.bangsanpham td {
+    text-align: left;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bangsanpham caption {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.bangsanpham .ngoisao {
+    color: gold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bangsanpham .ngoisaocuoi {
+    color: gray;
+  }
+
+.bangsanpham .danh_gia{
+    padding: 0;
+    margin: 0;
+    color: gray;
+    font-size: 12px;
 }
