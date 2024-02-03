@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.khung{
+    width: 800px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+audio{
+    display: block;
+    margin: 0 auto;
+}
+video{
+    max-width: 90%;;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid red;
+}
