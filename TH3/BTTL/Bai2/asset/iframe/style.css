@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.khung {
+    width: 800px;
+    margin: 0 auto;
+}
+caption{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: start;
+}
+img{
+    width: 300px;
+}
