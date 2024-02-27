@@ -2,16 +2,16 @@ body {
     margin: 0;
     padding: 0;
   }
-
+  
   .container {
     width: 1200px;
     margin: 0 auto;
   }
-
+  
   .img {
     width: 100%;
   }
-
+  
   .text {
     text-align: justify;
     width: 800px;
@@ -19,33 +19,33 @@ body {
     background-color: rgba(254,204,255,255);
     padding: 20px;
   }
-
+  
   .h1 {
-    color: #303030;
+    color: red;
   }
-
+  
   .img-left {
     float: left;
     margin: 15px;
     width: 40%;
   }
-
+  
   .p {
     font-size: 16px;
     line-height: 1.5;
   }
-
+  
   .b {
     font-weight: bold;
   }
-
+  
   .iframe {
     width: 350px;
     height: 200px;
   }
-
+  
   .iframe-right {
     float: right;
-    width: 356px;
+    width: 357px;
     height: 630px;
   }
