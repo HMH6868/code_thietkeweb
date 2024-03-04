@@ -1,0 +1,111 @@
+body {
+    background-color: #93A5C4;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Đảm bảo trang được căn giữa trên toàn bộ màn hình */
+    margin: 0; /* Loại bỏ các margin mặc định của body */
+}
+
+.khung {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+}
+
+#current-time {
+    background-color: white;
+    padding: 3px;
+    width: 56px;
+    margin-right: auto; /* Đẩy phần tử về bên phải */
+    margin-left: auto; /* Đẩy phần tử về bên trái */
+}
+
+h3 {
+    margin: 17px 0;
+    color: yellow;
+}
+
+h2 {
+    margin: 17px 0;
+    color: yellow;
+}
+
+.sp, .tu, .den {
+    background-color: white;
+    width: 310px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Khoảng cách giữa các ô input */
+    border: 1px solid black;
+}
+
+.sp p, .tu p, .den p {
+    margin: 0; /* Loại bỏ margin mặc định của thẻ p */
+    padding: 5px; /* Thêm padding để tạo khoảng cách từ viền của ô */
+}
+
+
+.sp select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.tu, .den {
+    background-color: white;
+    width: 310px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Khoảng cách giữa các ô input */
+    border: 1px solid black;
+}
+
+.tu select, .den select {
+    width: calc(100% - 30px);
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-right: 5px;
+}
+
+.nut {
+    align-self: flex-end; /* Đặt nút ở phía dưới cùng bên phải của khung */
+    margin-top: auto; /* Đảm bảo nút được đẩy xuống dưới cùng */
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+    background-color: blue;
+    width: 330px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-color: white black white black;
+    font-weight: bold;
+    position: relative; /* Thêm thuộc tính này để có thể sử dụng position: relative */
+}
+
+ul {
+    list-style-type: none; /* Loại bỏ chấm mặc định của danh sách */
+    padding-left: 0; /* Loại bỏ padding mặc định của danh sách */
+}
+
+ul li {
+    padding-top: 5px;
+    padding-left: 20px; /* Điều chỉnh khoảng cách giữa văn bản và dấu chấm */
+}
+
+.a::before, .b::before, .c::before, .d::before, .e::before, .f::before, .g::before, .h::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px; /* Điều chỉnh vị trí của dấu chấm tròn */
+}

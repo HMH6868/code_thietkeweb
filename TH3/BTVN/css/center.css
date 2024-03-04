@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav li a{
+    color: black;
+    text-decoration: none;
+    line-height: 85px;
+    padding: 0 40px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#nav li:hover a{
+    color: white;
+    background-color: grey;
+}
+
+#nav {
+    text-align: center;
+}

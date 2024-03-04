@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frame4</title>
+</head>
+<style>
+    frame{
+        border: 2px solid green;
+    }
+</style>
+<frameset rows="10%,*,10%" frameborder="0">
+    <frameset cols="25%,100%" frameborder="0">
+        <frame name="logo" src="logo.jpg">
+        <frameset rows="50%,50%" frameborder="0">
+            <frame name="noidung1" src="noidung1.html">
+            <frame name="noidung2" src="noidung2.html">
+        </frameset>
+    </frameset>
+    <frameset cols="30%,*" frameborder="0">
+        <frameset rows="30%,30%" frameborder="0">
+            <frame name="noidung1" src="noidung1.html">
+            <frame name="noidung2" src="noidung2.html">
+        </frameset>
+        <frame name="noidung1" src="noidung1.html">
+    </frameset>
+    <frame name="noidung2" src="noidung2.html">
+</frameset>
+</html>
