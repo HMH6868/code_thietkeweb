@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bài 1</title>
+</head>
+<body>
+    <form name="F1" method="get" style="border: #666 solid 1px; width: 48%; margin: 0 auto; border-radius: 5px;">
+        <table style="margin: 0 auto; width: 100%;">
+            <tr bgcolor="#CCCCCC">
+                <td colspan="2"><h3 style="margin-left: 20px;">THÔNG TIN NGƯỜI GỬI</h3></td>
+            </tr>
+            <tr>
+                <td>* Người gửi</td>
+                <td><input type="text" placeholder="Nhập họ và tên" size="100"></td>
+            </tr>
+            <tr>
+                <td>* E-Mail</td>
+                <td><input type="text" placeholder="Nhập Email" size="100"></td>
+            </tr>
+            <tr>
+                <td>* Điện thoại</td>
+                <td><input type="number" placeholder="Nhập phone" size="100"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form name="F2" method="get" style="border: #666 solid 1px; width: 48%; margin: 10px auto; border-radius: 5px;">
+        <table style="margin: 0 auto; width: 100%;">
+            <tr bgcolor="#CCCCCC">
+                <td colspan="2"><h3 style="margin-left: 20px;">THÔNG TIN NGƯỜI NHẬN</h3></td>
+            </tr>
+            <tr>
+                <td>* Người nhận</td>
+                <td><input type="text" placeholder="Nhập họ và tên" size="100"></td>
+            </tr>
+            <tr>
+                <td>* Điện thoại</td>
+                <td><input type="number" placeholder="Nhập phone" size="100"></td>
+            </tr>
+            <tr>
+                <td>* Địa chỉ</td>
+                <td><input type="text" placeholder="Nhập địa chỉ" size="100"></td>
+            </tr>
+            <tr>
+                <td>* Tỉnh/TP</td>
+                <td>
+                    <select name="Provine">
+                        <option value="1">TP.HCM nội thành</option>
+                        <option value="2">Hà nội</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Đà Nẵng</option>
+                        <option value="5">Quãng Ninh</option>
+                        <option value="6">Cần Thơ</option>
+                    </select>
+                </td>
+            </tr>
+            <td>* Quận</td>
+            <td>
+                <select name="Provine">
+                    <option value="1">Quận 1</option>
+                    <option value="2">Quận 2</option>
+                    <option value="3">Quận 3</option>
+                    <option value="4">Quận Tân Phú</option>
+                    <option value="5">Quận Tân Bình</option>
+                    <option value="6">Quận Thủ Đức</option>
+                </select>
+            </td>
+            <tr>
+                <td colspan="2" style="text-align: center; height: 40px;">
+                    <input type="submit" name="send" value="GỬI THÔNG TIN" style="margin: 0 auto; height: 40px; width: 170px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
