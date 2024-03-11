@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Bài 3</title>
 </head>
 <body>
-    <form style="border: black solid 1px; height: 160px; width: 250px; margin: 0 auto;">
-        <h3>OPT GROUP SD nhãn label</h3>
-        <select name="OPT GROUP SD nhãn label">
-          <optgroup label="Danh sách số">
-            <option value="Danh sách 01">Danh sách 01</option>
-            <option value="Danh sách 02">Danh sách 02</option>
-            <option value="Danh sách 03">Danh sách 03</option>
-            <option value="Danh sách 04">Danh sách 04</option>
-          </optgroup>
-          <optgroup label="Danh sách chữ">
-            <option value="Danh sách A">Danh sách A</option>
-            <option value="Danh sách A">Danh sách B</option>
-            <option value="Danh sách A">Danh sách C</option>
-          </optgroup>
-        </select>
-        <h3>OPT GROUP SD Disable</h3>
-        <select name="OPT GROUP SD Disable">
-            <optgroup label="Danh sách số" disabled>
-                <option value="Danh sách 01">Danh sách 01</option>
-                <option value="Danh sách 02">Danh sách 02</option>
-                <option value="Danh sách 03">Danh sách 03</option>
-                <option value="Danh sách 04">Danh sách 04</option>
-            </optgroup>
-            <optgroup label="Danh sách chữ">
-                <option value="Danh sách A">Danh sách A</option>
-                <option value="Danh sách A">Danh sách B</option>
-                <option value="Danh sách A">Danh sách C</option>
-            </optgroup>
-        </select>
-      </form>
+    <h1>Option group sd nhãn lable</h1>
+    <select name="ds" id="ds"  >
+        <optgroup >
+            <option value="1" >Danh sách 1</option>
+            <option value="2" >Danh sách 2</option>
+            <option value="3" >Danh sách 3</option>
+            <option value="4" >Danh sách 4</option>
+
+        </optgroup>
+        <optgroup label="Danh sách chữ" >
+            <option value="1" >Danh sách A</option>
+            <option value="2" >Danh sách B</option>
+            <option value="3" >Danh sách C</option>
+        </optgroup>
+    </select>
+    <h1>Option group sd nhãn Disable</h1>
+    <select name="ds" id="ds" >
+        <optgroup disabled>
+            <option value="1" >Danh sách 1</option>
+            <option value="2" >Danh sách 2</option>
+            <option value="3" >Danh sách 3</option>
+            <option value="4" >Danh sách 4</option>
+        </optgroup>
+        <optgroup label="Danh sách chữ" >
+            <option value="1" >Danh sách A</option>
+            <option value="2" >Danh sách B</option>
+            <option value="3" >Danh sách C</option>
+        </optgroup>
+    </select>
 </body>
 </html>

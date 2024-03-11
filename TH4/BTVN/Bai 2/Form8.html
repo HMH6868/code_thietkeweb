@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+</head>
+<body>
+    <form style="width: 30%; margin: 0 auto;box-shadow: 2px 3px 8px 5px lightgrey;">
+        <table style="margin: 0% auto; width: 100%;box-sizing: border-box">
+        <th colspan="2" style="background-color: rgb(0, 204, 255);"><h2 style="text-align: center;" > HỘP THƯ GÓP Ý </h2></th>
+        <tr>
+            <td colspan="2">
+            <div style="display: flex;flex-direction: column; padding: 10px 20px;">
+                    <label for="name"> Họ Tên</label>
+                    <input type="text" id="name" name=" Họ Tên" style="height: 30px;">
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div style="display: flex;flex-direction: column; padding: 10px 20px;">                    <label for="pasword">Hộ Khẩu</label>
+                    <select style="width: 100%; height: 40px; box-sizing: border-box">
+                        <option value="1" >TP.Hồ Chí Minh</option>
+                        <option value="2">Hà Nội</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Đà Nẵng</option>
+                        <option value="5">Quảng Ninh</option>
+                        <option value="6">Cần Thơ</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 10px 20px">
+                <a> Góp ý vể lĩnh vực</a>
+            </td>
+        </tr>
+        <tr> 
+            <td colspan="2">
+                <div style="display: flex;flex-direction: row; padding: 0px 20px;">
+                    <input type="checkbox" id="Dịch vụ "><label for="Dịch vụ" style="padding-right: 20px;">Dịch vụ</label>
+                    <input type="checkbox" id="Sản Phẩm"><label for="Sản Phẩm" style="padding-right: 20px;">Sản Phẩm</label>
+                    <input type="checkbox" id="Khác"><label for="Khác" style="padding-right: 20px;">Khác</label>
+                </div>
+            </td>
+        </tr>
+    
+        <tr>
+            <td colspan="2"  style="padding: 10px 20px">
+                <a> Ngôn Ngữ</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div style="display: flex;flex-direction: row; padding: 0px 20px;">
+                    <input type="radio" id=" Anh" name="Ngôn Ngữ"><label for="Anh" style="padding-right: 20px;">Anh</label>
+                    <input type="radio" id="Việt" name="Ngôn Ngữ"><label for="Việt" >Việt</label>                
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"  style="padding: 10px 20px">
+                <a> Nội Dung</a>
+            </td> 
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div style="padding: 0 20px">
+                    <textarea id="content" name="content"  style=" width:100%;height: 100px;box-sizing: border-box;" placeholder="Nội dung góp ý"></textarea>
+                </div>
+            </td>
+        </tr>
+        <tr style="margin: 0 auto;">
+            <td  style="text-align: center;padding-left: 20px;">
+                <input type="submit" value=" GỬI " style=" height: 30px; width: 100%; background-color: rgb(0, 204, 255);box-shadow: 3px 2px 4px 2px lightgrey; border: none; margin-bottom: 20px;">
+            </td>
+            <td  style="text-align: center;padding-right: 20px;">
+                <input type="submit" value=" XÓA " style=" height: 30px; width: 100%; background-color: red;box-shadow: 3px 2px 4px 2px lightgrey; border: none; margin-bottom: 20px;">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

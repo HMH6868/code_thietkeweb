@@ -3,113 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Bài 2</title>
 </head>
 <body>
-    <form name="F1" method="get" style="border: #666 solid 1px; width: fit-content; margin: 0 auto;">
-        <table style="width: 350px;">
+    <form action="" >
+        <table >
             <tr>
-                <td>Username :</td>
-                <td><input type="text" placeholder="Enter Username" size="10"></td>
+                <td style="width: 100px;">Username</td>
+                <td><input type="text" placeholder="Enter username" style="width: 100%;height:40px;box-sizing: border-box;"></td>
             </tr>
             <tr>
-                <td>Password :</td>
-                <td><input type="password" placeholder="Enter Password" size="30"></td>
+                <td style="width: 100px;">Password</td>
+                <td><input type="password" placeholder="Enter password" style="width: 100%;height:40px;box-sizing: border-box;"></td>
             </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" value="Đăng nhập" style="padding: 2px 4px;">
-                </td>
+            <tr >
+                <td colspan="2"><input type="submit" value="ĐĂNG NHẬP" style="padding: 2px;"></td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
-
-            <!-- Phan checkbox hobby -->
-            <tr valign="top">
-                <td>Hobby</td>
+            <tr >
+                <td style="width: 100px;vertical-align: top;">Hobby</td>
                 <td>
                     <div>
-                        <input type="checkbox" id="music" name="music" checked>
-                        <label for="music">Music</label>
+                        <input type="checkbox"  id="Music" name="Music"><label for="Music">Music</label>
                     </div>
-
                     <div>
-                        <input type="checkbox" id="film" name="film">
-                        <label for="film">Film</label>
+                        <input type="checkbox"  id="Film" name="Film"><label for="Film">Film</label>
                     </div>
-
                     <div>
-                        <input type="checkbox" id="sport" name="sport">
-                        <label for="sport">Sport</label>
+                        <input type="checkbox"  id="Sport" name="Sport"><label for="Sport">Sport</label>
                     </div>
                 </td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000 ;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
-
-            <!-- Phan checkbox User for -->
-            <tr valign="top">
-                <td>User for</td>
-                <td>
+            <tr>
+                <td style="width: 100px;vertical-align: top;">Use for</td>
+                <td> 
                     <div>
-                        <input type="radio" id="home" name="userfor" value="home" checked>
-                        <label for="home">Home</label>
+                        <input type="radio"  name="useFor" id="Home"><label for="Home">Home</label>
                     </div>
-
                     <div>
-                        <input type="radio" id="business" name="userfor" value="business">
-                        <label for="business">Business</label>
+                        <input type="radio"  name="useFor" id="Business"><label for="Business">Business</label>
                     </div>
-
                     <div>
-                        <input type="radio" id="government" name="userfor" value="government">
-                        <label for="government">Government</label>
+                        <input type="radio"  name="useFor" id="Goverment"><label for="Goverment">Goverment</label>
                     </div>
-                    
                     <div>
-                        <input type="radio" id="education" name="userfor" value="education">
-                        <label for="education">Educational Institution</label>
+                        <input type="radio"  name="useFor" id="Education Institution"><label for="Education Institution">Education Institution</label>
                     </div>
-
                     <div>
-                        <input type="radio" id="other" name="userfor" value="other">
-                        <label for="other">Others</label>
+                        <input type="radio"  name="useFor" id="Other"><label for="Other">Other</label>
                     </div>
                 </td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000 ;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
-
-            <tr>
-                <!-- Button chuỗi reset -->
-                <td colspan="2">
-                    <input type="submit" value="Chuỗi reset" style="padding: 2px 4px">
-                </td>
+            <tr >
+                <td colspan="2"><input type="submit" value="Chuỗi reset" style="padding: 2px;"></td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000 ;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
-
-            <tr>
-                <!-- Button OK -->
-                <td colspan="2">
-                    <input type="submit" value="OK" style="padding: 2px 4px">
-                </td>
+            <tr >
+                <td colspan="2"><input type="submit" value="OK" style="padding: 2px;"></td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000 ;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
-
-            <tr>
-                <td colspan="2" style="border-bottom: 1px solid #000 ;"></td>
+            <tr >
+                <td colspan="2" style="border-bottom:1px solid black ; width: 80%;"></td>
             </tr>
         </table>
     </form>

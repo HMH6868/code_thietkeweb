@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Bài 2</title>
+  </head>
+
+  <body>
+    <form action="">
+      <table >
+        <th colspan="3" style="color: red; font-size: xx-large;">Thông Tin Khách Hàng</th>
+        <tr>
+          <td style="text-align: center;">Tên Khách Hàng:</td>
+          <td><input type="text" style="width: 100%;" /></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Tình Trạng:</td>
+          <td>
+            <select name="Status" id="status">
+              <optgroup>
+                <option value="1">Khách Hàng VIP</option>
+                <option value="2">Khách Hàng Thành Viên</option>
+                <option value="3" checked>Khách Hàng Mới</option>
+              </optgroup>
+            </select>
+          </td>
+          <td><label for="MaKH">Mã KH: </label><input type="text" name="MaKH" id="MaKH"></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Chọn Khu</td>
+          <td>
+            <input type="radio" name="khu" id="KS" /><label for="KS">Khách Sạn</label>
+            <input type="radio" name="khu" id="KO" /><label for="KO">Karaoke</label>
+          </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> <label for="SP">Số Phòng: </label><input type="text" name="khu" id="SP"></td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> 
+                <input type="radio" name="khu" id="Bar" /><label for="Bar">Bar Club</label>
+                <input type="radio" name="khu" id="CF" /><label for="CF">Coffee</label>
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> <label for="SB">Số Bàn: </label><input type="text" name="khu" id="SB"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"> Yêu Cầu: </td>
+            <td> <textarea id="req" name="req" style="width:100%; height: 150px;"></textarea></td>
+        </tr>
+        <tr style=" text-align: center">
+            <td colspan="3"><input type="submit" value="GỬI THÔNG TIN" style="padding: 2px;;"></td>
+        </tr>
+        <th colspan="3" style="color: red;font-size: larger;">Qúy khách vui lòng điền thông tin đầy đủ trước khi đặt món ăn.!!!</th>
+      </table>
+    </form>
+  </body>
+</html>
