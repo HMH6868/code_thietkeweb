@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<canvas id="myCanvas" width="400" height="220" style="border: 2px solid#00C; background-color: #CFF; border-radius: 15px"></canvas>
+
+<script>
+	var c= document.getElementById("myCanvas");
+	var ctx= c.getContext("2d");
+	var i=110;
+	var j=170;
+	var grd = ctx.createRadialGradient(100,100,5,100,100,90);
+	
+	
+	while(i>=90)
+		{
+			ctx.beginPath();
+			ctx.lineWidth= 10;
+			ctx.arc(200,100,i,Math.PI,4*Math.PI/3);
+			ctx.strokeStyle="blue";
+			ctx.stroke();
+			
+			i-=20;
+	
+			
+		}
+	
+	while(j>=90)
+		{
+			ctx.beginPath();
+			ctx.arc(200,100,j,5*Math.PI/3,0);
+			ctx.strokeStyle="gray";
+			ctx.stroke();
+			
+			j-=20;
+	
+			
+		}
+	
+	ctx.beginPath();
+	ctx.lineWidth= 10;
+	ctx.strokeStyle="blue";
+	ctx.arc(200,100,70,0,2*Math.PI);
+	ctx.stroke();
+	
+	ctx.moveTo(200,30);
+	ctx.lineTo(200,170);
+	ctx.stroke();
+	
+	ctx.moveTo(150,50);
+	ctx.lineTo(250,50);
+	ctx.stroke();
+	
+	ctx.moveTo(135,70);
+	ctx.lineTo(265,70);
+	ctx.stroke();
+	
+	ctx.moveTo(130,90);
+	ctx.lineTo(270,90);
+	ctx.stroke();
+	
+	ctx.moveTo(130,110);
+	ctx.lineTo(270,110);
+	ctx.stroke();
+	
+	ctx.moveTo(135,130);
+	ctx.lineTo(265,130);
+	ctx.stroke();
+	
+	ctx.moveTo(150,150);
+	ctx.lineTo(250,150);
+	ctx.stroke();
+	
+	
+	ctx.font="25px arial";
+	ctx.fillText("GLOBAL 2021", 125, 205);
+	
+	
+	</script>
+</body>
+</html>

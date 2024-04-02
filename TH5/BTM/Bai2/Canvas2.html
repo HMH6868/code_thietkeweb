@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid red"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,100);
+        ctx.lineTo (200,100);
+        ctx.stroke();
+        ctx.moveTo(100,50);
+        ctx.lineTo(100,150);
+        ctx.stroke();
+        ctx.moveTo(50,50);
+        ctx.lineTo(150,150);
+        ctx.stroke();
+        ctx.moveTo(150,50);
+        ctx.lineTo(50,150);
+        ctx.stroke();
+    </script>
+</body>
+</html>
